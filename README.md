@@ -1,6 +1,6 @@
-# Titanic Survival Prediction
+# Sales Prediction Using Python
 
-Predict whether a passenger on the Titanic survived using the Titanic dataset.
+Sales prediction involves forecasting the amount of a product that customers will purchase, taking into account various factors such as advertising expenditure, target audience segmentation, and advertising platform selection.
 
 ## Installation
 
@@ -9,14 +9,11 @@ Install the required libraries:
 ```bash
 pip install pandas matplotlib seaborn scikit-learn
 ```
-Usage
 
-Clone the repository.
+## Usage
+Clone the repository
+Place the dataset (advertising.csv) in the repository directory.
+Run the script
 
-Run the script:
-```bash
-python titanic_survival_prediction.py
-```
-
-Results
-The model achieves an accuracy of approximately 81%. Results are saved in titanic_predictions.csv.
+## Results
+The model's performance metrics, including Mean Squared Error (MSE) and R² Score, will be printed. A plot showing the actual vs predicted sales will be displayed.
